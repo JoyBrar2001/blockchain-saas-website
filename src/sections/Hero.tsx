@@ -4,7 +4,7 @@ import { Hexagon } from "../components/Hexagon";
 
 export const HeroSection = () => {
   return (
-    <section className="py-24 md:py-52 overflow-x-clip">
+    <section className="py-24 md:py-64 overflow-x-clip">
       <div className="container">
         <p className="uppercase font-extrabold text-center text-zinc-500 tracking-wider">
           Introducing Blockforge
