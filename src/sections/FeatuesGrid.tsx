@@ -12,7 +12,7 @@ export const FeaturesGrid = () => {
     <section className="py-24 overflow-x-clip">
       <div className="container">
         <div className="flex flex-col gap-56 md:gap-48 lg:gap-80">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="col-span-2">
               <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl">
                 Empowering the future of blockchain.
@@ -50,7 +50,7 @@ export const FeaturesGrid = () => {
               </div>
             </div>
 
-            <div>
+            <div className="max-md:hidden">
               <div className="relative inline-flex">
                 <img
                   src="/assets/images/torus-knot.png"
@@ -66,8 +66,8 @@ export const FeaturesGrid = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-3">
-            <div className="relative">
+          <div className="grid grid-cols-1 md:grid-cols-3">
+            <div className="max-md:hidden relative">
               <div className="absolute right-0">
                 <img
                   src="/assets/images/cone.png"
@@ -82,7 +82,7 @@ export const FeaturesGrid = () => {
               </div>
             </div>
 
-            <div className="col-span-2">
+            <div className="col-span-2 ml-4">
               <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl">
                 Blockforge leads the way.
               </h2>
