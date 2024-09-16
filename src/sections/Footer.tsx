@@ -50,10 +50,10 @@ export const Footer = () => {
           </div>
 
           <nav className="hidden md:flex text-zinc-500 font-heading font-black gap-12">
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Careers</a>
-            <a href="#">Contact</a>
+            <a href="#" className="hover:text-white transition duration-300">Home</a>
+            <a href="#" className="hover:text-white transition duration-300">Blog</a>
+            <a href="#" className="hover:text-white transition duration-300">Careers</a>
+            <a href="#" className="hover:text-white transition duration-300">Contact</a>
           </nav>
         </div>
 
