@@ -66,7 +66,10 @@ const latestPost = posts[0];
       <div class="flex flex-col gap-8 lg:gap-12">
         {
           posts.map(
-            ({ data: { category, title, description }, slug }: any, postIndex: number) => (
+            (
+              { data: { category, title, description }, slug }: any,
+              postIndex: number
+            ) => (
               <motion.a
                 client:load
                 href={`/blog/${slug}`}
@@ -111,7 +114,10 @@ const latestPost = posts[0];
       <div class="hidden md:flex flex-col gap-8 lg:gap-12 mt-24">
         {
           posts.map(
-            ({ data: { category, title, description }, slug }: any, postIndex: number) => (
+            (
+              { data: { category, title, description }, slug }: any,
+              postIndex: number
+            ) => (
               <motion.a
                 client:load
                 href={`/blog/${slug}`}
